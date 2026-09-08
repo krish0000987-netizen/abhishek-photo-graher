@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C5A059" />
+      <stop offset="25%" stop-color="#FDF0CD" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="75%" stop-color="#F3E5AB" />
+      <stop offset="100%" stop-color="#AA7A1E" />
+    </linearGradient>
+    <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Camera Icon Outline -->
+  <g transform="translate(200, 10)" stroke="url(#goldGradient)" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#goldGlow)">
+    <!-- Camera Body -->
+    <path d="M 20,40 Q 25,22 45,22 L 55,22 Q 75,22 80,40 L 92,42 Q 98,42 98,48 L 98,78 Q 98,84 92,84 L 8,84 Q 2,84 2,78 L 2,48 Q 2,42 8,42 Z" />
+    <!-- Flash / Viewfinder bump -->
+    <path d="M 32,22 L 32,15 Q 32,12 36,12 L 64,12 Q 68,12 68,15 L 68,22" />
+    <!-- Shutter button -->
+    <line x1="16" y1="36" x2="24" y2="36" stroke-width="3.5" />
+    <!-- Outer Lens Circle -->
+    <circle cx="50" cy="56" r="21" stroke-width="3" />
+    <!-- Inner Lens Spiral / Reflex -->
+    <circle cx="50" cy="56" r="14" stroke-width="2" stroke-dasharray="20 4" />
+    <circle cx="50" cy="56" r="6" stroke-width="2" />
+    <!-- Lens reflection highlight -->
+    <path d="M 44,48 A 12 12 0 0 1 56,48" stroke="url(#goldGradient)" stroke-width="2" />
+    <!-- Small sensor dot -->
+    <circle cx="82" cy="50" r="2.5" fill="url(#goldGradient)" />
+  </g>
+
+  <!-- Script Text "Abhishek" -->
+  <text x="250" y="145" text-anchor="middle" font-family="'Playfair Display', 'Cormorant Garamond', 'Great Vibes', serif" font-size="56" font-style="italic" font-weight="700" fill="url(#goldGradient)" letter-spacing="1" filter="url(#goldGlow)">
+    Abhishek
+  </text>
+
+  <!-- Subtitle "PHOTOGRAPHY" -->
+  <text x="250" y="180" text-anchor="middle" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="15" font-weight="600" fill="url(#goldGradient)" letter-spacing="9" opacity="0.95">
+    PHOTOGRAPHY
+  </text>
+
+  <!-- Phone Number Line -->
+  <g opacity="0.85">
+    <line x1="120" y1="205" x2="165" y2="205" stroke="url(#goldGradient)" stroke-width="1.2" />
+    <text x="250" y="210" text-anchor="middle" font-family="'Plus Jakarta Sans', 'Inter', monospace, sans-serif" font-size="13" font-weight="500" fill="url(#goldGradient)" letter-spacing="4">
+      8755303263
+    </text>
+    <line x1="335" y1="205" x2="380" y2="205" stroke="url(#goldGradient)" stroke-width="1.2" />
+  </g>
+</svg>

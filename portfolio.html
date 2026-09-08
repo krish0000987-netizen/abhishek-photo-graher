@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Gallery | Abhishek Photography — Selected Stories</title>
+  <meta name="description" content="Explore selected wedding, pre-wedding, bridal portrait, and event stories by Abhishek Photography. Interactive luxury masonry gallery with fullscreen lightbox.">
+  <link rel="canonical" href="https://abhishekphotography.in/portfolio.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Selected Stories | Abhishek Photography Portfolio">
+  <meta property="og:description" content="An editorial anthology of love, sacred traditions, and timeless bridal portraits.">
+  <meta property="og:image" content="assets/images/hero_cinematic_couple.jpg">
+
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="container-wide header-inner">
+      <a href="index.html" class="brand-logo" aria-label="Abhishek Photography Home">
+        <img src="assets/logo.svg" alt="Abhishek Photography Luxury Logo" width="160" height="75">
+      </a>
+
+      <nav aria-label="Primary Navigation">
+        <ul class="desktop-nav">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="weddings.html" class="nav-link">Weddings</a></li>
+          <li><a href="pre-weddings.html" class="nav-link">Pre-Weddings</a></li>
+          <li><a href="events.html" class="nav-link">Events</a></li>
+          <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="packages.html" class="nav-link">Packages</a></li>
+          <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="contact.html" class="btn btn-primary btn-sm">Book Your Date</a>
+        <button class="mobile-menu-toggle" aria-label="Toggle Mobile Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <ul class="mobile-nav-list">
+      <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+      <li><a href="about.html" class="mobile-nav-link">About</a></li>
+      <li><a href="weddings.html" class="mobile-nav-link">Weddings</a></li>
+      <li><a href="pre-weddings.html" class="mobile-nav-link">Pre-Weddings</a></li>
+      <li><a href="events.html" class="mobile-nav-link">Events</a></li>
+      <li><a href="portfolio.html" class="mobile-nav-link active">Portfolio</a></li>
+      <li><a href="services.html" class="mobile-nav-link">Services</a></li>
+      <li><a href="packages.html" class="mobile-nav-link">Packages</a></li>
+      <li><a href="testimonials.html" class="mobile-nav-link">Testimonials</a></li>
+      <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="btn btn-primary" style="width: 100%; margin-bottom: 2rem;">Book Your Date</a>
+    <div class="mobile-contact-info">
+      <a href="tel:8755303263" class="mobile-contact-phone">+91 8755303263</a>
+      <p class="mobile-contact-address">Pratap Market, Bhagwanpur, Roorkee, Uttarakhand</p>
+    </div>
+  </div>
+
+  <main>
+    <!-- Page Hero Banner -->
+    <section class="page-hero">
+      <img class="page-hero-bg" src="assets/images/hero_cinematic_couple.jpg" alt="Selected Wedding Stories by Abhishek Photography">
+      <div class="page-hero-overlay"></div>
+      <div class="page-hero-content reveal-on-scroll">
+        <div class="breadcrumb-nav">
+          <a href="index.html">Home</a> <span>/</span> <span>Portfolio</span>
+        </div>
+        <h1 class="section-title">SELECTED <span class="gold-text">STORIES</span></h1>
+        <p class="section-subtitle">An editorial archive of love, sacred fire, joyful colors, and regal bridal portraits captured across India.</p>
+      </div>
+    </section>
+
+    <!-- Master Filter & Masonry Section -->
+    <section class="section-padding-lg" style="background: var(--bg-primary);">
+      <div class="container-wide">
+        
+        <!-- Filter Tabs -->
+        <div class="portfolio-filter-nav reveal-on-scroll">
+          <button class="filter-btn active" data-filter="all">All Stories</button>
+          <button class="filter-btn" data-filter="weddings">Weddings</button>
+          <button class="filter-btn" data-filter="pre-weddings">Pre-Weddings</button>
+          <button class="filter-btn" data-filter="bride-groom">Bride & Groom</button>
+          <button class="filter-btn" data-filter="events">Events & Haldi</button>
+          <button class="filter-btn" data-filter="candid">Candid Moments</button>
+          <button class="filter-btn" data-filter="portraits">Portraits</button>
+        </div>
+
+        <!-- Masonry Grid -->
+        <div class="masonry-grid reveal-on-scroll" id="portfolioGrid">
+          
+          <!-- 1: Royal Palace Wedding -->
+          <div class="masonry-item" data-category="weddings bride-groom portraits" data-lightbox>
+            <img src="assets/images/hero_cinematic_couple.jpg" alt="Royal Courtyard Wedding Couple">
+            <div class="masonry-overlay">
+              <span class="masonry-category">Weddings • Royal</span>
+              <h4 class="masonry-title">Aditya & Ananya • Courtyard Sunset</h4>
+            </div>
+            <div class="masonry-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg></div>
+          </div>
+
+          <!-- 2: Bridal Kundan Close-up -->
+          <div class="masonry-item" data-category="bride-groom portraits" data-lightbox>
+            <img src="assets/images/gallery_bridal_dupatta.jpg" alt="Bridal Dupatta Veil Portrait">
+            <div class="masonry-overlay">
+              <span class="masonry-category">Portraits • Bridal</span>
+              <h4 class="masonry-title">Veil of Crimson Kundan</h4>
+            </div>
+            <div class="masonry-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg></div>
+          </div>
+
+          <!-- 3: Haldi Ceremony -->
+          <div class="masonry-item" data-category="events candid" data-lightbox>
+            <img src="assets/images/hero_haldi_celebration.jpg" alt="Joyful Haldi Ceremony Petal Shower">
+            <div class="masonry-overlay">
+              <span class="masonry-category">Events • Haldi Candid</span>
+              <h4 class="masonry-title">Pooja's Golden Marigold Shower</h4>
+            </div>
+            <div class="masonry-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg></div>
+          </div>
+
+          <!-- 4: Lakeside Pre-Wedding -->
+          <div class="masonry-item" data-category="pre-weddings" data-lightbox>
+            <img src="assets/images/hero_prewedding_couple.jpg" alt="Romantic Pre-Wedding Sunset Lake">
+            <div class="masonry-overlay">
+              <span class="masonry-category">Pre-Weddings • Sunset</span>
+              <h4 class="masonry-title">Kabir & Meera • Emerald Lake</h4>
+            </div>
+            <div class="masonry-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg></div>
+          </div>
+
+          <!-- 5: Sacred Mandap Phere -->
+          <div class="masonry-item" data-category="weddings candid" data-lightbox>
+            <img src="assets/images/hero_mandap_phere.jpg" alt="Sacred Phere Around Holy Agni">
+            <div class="masonry-overlay">
+              <span class="masonry-category">Weddings • Sacred Rituals</span>
+              <h4 class="masonry-title">Vedic Vows & Holy Agni Kund</h4>
+            </div>
+            <div class="masonry-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg></div>
+          </div>
+
+          <!-- 6: Editorial Bridal Throne -->
+          <div class="masonry-item" data-category="bride-groom portraits" data-lightbox>
+            <img src="assets/images/hero_bridal_portrait.jpg" alt="Editorial Indian Bride Portrait">
+            <div class="masonry-overlay">
+              <span class="masonry-category">Bride • Fine-Art</span>
+              <h4 class="masonry-title">Maharani in Velvet</h4>
+            </div>
+            <div class="masonry-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg></div>
+          </div>
+
+          <!-- 7: Regal Groom Sherwani -->
+          <div class="masonry-item" data-category="bride-groom portraits" data-lightbox>
+            <img src="assets/images/hero_groom_portrait.jpg" alt="Royal Groom Kalgi Portrait">
+            <div class="masonry-overlay">
+              <span class="masonry-category">Groom • Royalty</span>
+              <h4 class="masonry-title">The Maharaja's Aura</h4>
+            </div>
+            <div class="masonry-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg></div>
+          </div>
+
+          <!-- 8: Sangeet Night Dance -->
+          <div class="masonry-item" data-category="events candid" data-lightbox>
+            <img src="assets/images/hero_sangeet_celebration.jpg" alt="Sangeet Sparklers Dance Performance">
+            <div class="masonry-overlay">
+              <span class="masonry-category">Events • Sangeet</span>
+              <h4 class="masonry-title">Midnight Blue Swirl & Sparklers</h4>
+            </div>
+            <div class="masonry-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg></div>
+          </div>
+
+          <!-- 9: Mehndi Ceremony Details -->
+          <div class="masonry-item" data-category="events candid" data-lightbox>
+            <img src="assets/images/hero_mehndi_ceremony.jpg" alt="Vibrant Mehndi Celebration">
+            <div class="masonry-overlay">
+              <span class="masonry-category">Events • Mehndi</span>
+              <h4 class="masonry-title">Henna Dreams & Sisterhood</h4>
+            </div>
+            <div class="masonry-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg></div>
+          </div>
+
+          <!-- 10: Varmala Rose Petals -->
+          <div class="masonry-item" data-category="weddings candid" data-lightbox>
+            <img src="assets/images/gallery_varmala_moment.jpg" alt="Varmala Rose Petal Rain">
+            <div class="masonry-overlay">
+              <span class="masonry-category">Weddings • Varmala</span>
+              <h4 class="masonry-title">Rohan & Shruti • The Jaimala Bloom</h4>
+            </div>
+            <div class="masonry-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg></div>
+          </div>
+
+          <!-- 11: Reception Walkway Grand Entrance -->
+          <div class="masonry-item" data-category="weddings" data-lightbox>
+            <img src="assets/images/hero_reception_stage.jpg" alt="Grand Reception Couple Walkway">
+            <div class="masonry-overlay">
+              <span class="masonry-category">Weddings • Reception</span>
+              <h4 class="masonry-title">Tuxedo & Glittering Trail</h4>
+            </div>
+            <div class="masonry-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg></div>
+          </div>
+
+          <!-- 12: Birthday Milestone -->
+          <div class="masonry-item" data-category="events candid" data-lightbox>
+            <img src="assets/images/hero_birthday_celebration.jpg" alt="Toddler Milestone Birthday">
+            <div class="masonry-overlay">
+              <span class="masonry-category">Events • Birthdays</span>
+              <h4 class="masonry-title">Advik's 2nd Birthday Delight</h4>
+            </div>
+            <div class="masonry-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Bottom CTA -->
+    <section class="section-padding-sm" style="background: var(--bg-secondary); text-align: center;">
+      <div class="container reveal-on-scroll">
+        <h2 style="margin-bottom: 1.2rem;">INSPIRED BY OUR <span class="gold-text">STORIES?</span></h2>
+        <p style="margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">Let’s write the next timeless visual chapter for your wedding or event.</p>
+        <div class="btn-group" style="justify-content: center;">
+          <a href="contact.html" class="btn btn-primary btn-lg">Check Your Date</a>
+          <a href="packages.html" class="btn btn-outline btn-lg">Explore Packages</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container-wide">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo" style="margin-bottom: 1rem;">
+            <img src="assets/logo.svg" alt="Abhishek Photography Logo" width="180">
+          </a>
+          <p>Capturing love, emotions, and unforgettable stories with high-end editorial and cinematic photography across Roorkee, Haridwar & Uttarakhand.</p>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="about.html" class="footer-link">About Abhishek</a></li>
+            <li><a href="weddings.html" class="footer-link">Wedding Photography</a></li>
+            <li><a href="pre-weddings.html" class="footer-link">Pre-Wedding Shoots</a></li>
+            <li><a href="events.html" class="footer-link">Events & Parties</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Studio & Info</h4>
+          <ul class="footer-links-list">
+            <li><a href="portfolio.html" class="footer-link">Portfolio Gallery</a></li>
+            <li><a href="services.html" class="footer-link">Services & Deliverables</a></li>
+            <li><a href="packages.html" class="footer-link">Packages & Collections</a></li>
+            <li><a href="testimonials.html" class="footer-link">Client Testimonials</a></li>
+            <li><a href="contact.html" class="footer-link">Contact & Booking</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Direct Inquiries</h4>
+          <ul class="footer-contact-info">
+            <li><span>Pratap Market, Bhagwanpur, Roorkee, Haridwar, Uttarakhand, India</span></li>
+            <li><a href="tel:8755303263" style="color: var(--gold-light); font-weight: 700;">8755303263</a></li>
+            <li><span>contact@abhishekphotography.in</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© <span class="current-year">2026</span> Abhishek Photography. All Rights Reserved.</div>
+        <div>Pratap Market, Bhagwanpur, Roorkee • Luxury Wedding & Event Photography</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox-modal" id="globalLightbox" role="dialog" aria-modal="true" aria-label="Photo Lightbox">
+    <button class="lightbox-close" aria-label="Close Lightbox">&times;</button>
+    <div class="lightbox-counter">01 / 12</div>
+    <button class="lightbox-prev" aria-label="Previous Photo">&#10094;</button>
+    <button class="lightbox-next" aria-label="Next Photo">&#10095;</button>
+    <div class="lightbox-content">
+      <div class="lightbox-img-wrapper">
+        <img class="lightbox-img" src="" alt="Abhishek Photography Lightbox View">
+      </div>
+      <div class="lightbox-caption">
+        <div class="lightbox-caption-title"></div>
+        <div class="lightbox-caption-cat"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Actions -->
+  <div class="floating-actions">
+    <a href="https://wa.me/918755303263?text=Hi%20Abhishek%2C%20I%20love%20your%20portfolio%20and%20would%20like%20to%20inquire." target="_blank" rel="noopener" class="floating-btn whatsapp" aria-label="Chat on WhatsApp">
+      <span class="floating-tooltip">Chat on WhatsApp</span>
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm0 17.06c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.13 8.13 0 01-1.25-4.29c0-4.51 3.67-8.18 8.18-8.18 2.18 0 4.24.85 5.78 2.39a8.13 8.13 0 012.4 5.79c0 4.51-3.67 8.18-8.18 8.18zm4.48-6.13c-.25-.12-1.45-.72-1.68-.8-.23-.08-.39-.12-.56.12-.17.25-.64.8-.79.97-.15.17-.29.19-.54.07-.25-.12-1.04-.38-1.99-1.22-.73-.65-1.23-1.46-1.38-1.71-.15-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.15.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.35-.76-1.85-.2-.48-.4-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.08s.89 2.41 1.02 2.58c.12.17 1.75 2.67 4.24 3.75.59.26 1.05.41 1.41.53.6.19 1.14.16 1.57.1.48-.07 1.45-.59 1.66-1.17.2-.57.2-1.07.14-1.17-.06-.1-.23-.16-.47-.28z"/></svg>
+    </a>
+    <a href="tel:8755303263" class="floating-btn call" aria-label="Call Abhishek Photography">
+      <span class="floating-tooltip">Call 8755303263</span>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24 11.72 11.72 0 003.68.59 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.72 11.72 0 00.59 3.68 1 1 0 01-.24 1.02l-2.23 2.09z"/></svg>
+    </a>
+  </div>
+
+  <button class="back-to-top" aria-label="Scroll to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
